@@ -9,7 +9,7 @@ export default function Projects() {
 
       <div className="space-y-10">
         {recentProjects.map((project, i) => (
-          <div key={i} className="flex gap-6  ">
+          <div key={i} className="flex gap-6 flex-wrap lg:flex-nowrap">
             <div className="w-60 h-32 rounded overflow-hidden flex-shrink-0">
               <div className="w-full h-full flex flex-wrap items-center justify-center text-gray-600">
                 <img src={project.image} alt="" />
