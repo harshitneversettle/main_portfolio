@@ -50,7 +50,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
             <FaXTwitter className="text-base sm:text-lg md:text-xl" />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/harshitneversettle"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
