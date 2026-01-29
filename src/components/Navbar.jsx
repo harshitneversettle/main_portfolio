@@ -29,6 +29,13 @@ export default function Navbar({ darkMode, setDarkMode }) {
 
         <div className="flex items-center gap-2 sm:gap-4 md:gap-8">
           <a
+            href="https://drive.google.com/file/d/1RRkcw3WzGq3wbWT2xgR3kBKCXZvdbmgk/view?usp=sharing"
+            target="_blank"
+            className="hidden md:block text-md md:text-md text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
+          >
+            resume
+          </a>
+          <a
             href="#proof-of-work"
             className="hidden md:block text-md md:text-md text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
           >
