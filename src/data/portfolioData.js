@@ -74,7 +74,7 @@ export const recentProjects = [
     ],
   },
   {
-    title: "Solana mev analyer",
+    title: "Solana mev analyzer",
     description:
       "A real-time MEV analyzer built on Solana Devnet to detect arbitrage opportunities caused by price imbalances across liquidity pools trading the same asset pair.",
     image: "/mev.png",
