@@ -63,7 +63,7 @@ export const recentProjects = [
   {
     title: "SolEase",
     description:
-      "a local-first, terminal-based password manager built for people who care about security, simplicity, and control and uses argon2id and xchacha20-poly1305.",
+      "A secure, transparent, and user-friendly decentralized finance (DeFi) protocol built on the Solana blockchain for seamless lending and borrowing of digital assets.",
     image: "/solease.png",
     links: [
       {
