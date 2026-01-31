@@ -174,5 +174,5 @@ export const githubActivity = {
 
 export const musicTrack = {
   title: "Currently Listening",
-  url: "./udarriyan.mp3",
+  url: "./kho_gaye.mp3",
 };
