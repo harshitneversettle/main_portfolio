@@ -5,6 +5,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import ProofOfWork from "./components/ProofOfWork";
 import GitHubActivity from "./components/GitHubActivity";
+import { FaRobot, FaSkull } from "react-icons/fa";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -19,6 +20,12 @@ function App() {
           <Projects />
           <ProofOfWork />
           <GitHubActivity />
+          <FaRobot
+            onClick={() =>
+              window.open("https://bot.harshityad4v.in/", "_blank")
+            }
+            className="fixed bottom-6 right-8 dark:text-white text-black text-6xl dark:hover:text-gray-500 duration-100 cursor-pointer animate-bounce rounded-full z-50"
+          />
         </main>
       </div>
     </div>
