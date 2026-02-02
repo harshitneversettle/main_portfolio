@@ -24,7 +24,7 @@ function App() {
             onClick={() =>
               window.open("https://bot.harshityad4v.in/", "_blank")
             }
-            className="fixed bottom-6 right-8 dark:text-white text-black text-6xl dark:hover:text-gray-500 duration-100 cursor-pointer animate-bounce rounded-full z-50"
+            className="fixed bottom-4 right-5 md:bottom-8 md:right-8  dark:text-white text-black md:text-5xl text-3xl dark:hover:text-gray-500 duration-100 cursor-pointer guitrounded-full z-50"
           />
         </main>
       </div>
