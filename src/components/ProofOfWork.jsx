@@ -5,12 +5,12 @@ import { FaGithub } from "react-icons/fa";
 export default function ProofOfWork() {
   const [filter, setFilter] = useState("all");
 
-  const categories = ["all", "web3", "web2", "contribution"];
+  const categories = ["all", "web3", "web2", "contribution", ";)"];
 
-  const filteredWork =
-    filter === "all"
-      ? proofOfWork
-      : proofOfWork.filter((work) => work.category === filter);
+  let filteredWork = proofOfWork;
+  if (filter !== "all") {
+    filteredWork = proofOfWork.filter((i) => i.category.includes(filter));
+  }
 
   return (
     <section id="proof-of-work" className="mb-24">
@@ -54,16 +54,22 @@ export default function ProofOfWork() {
               </span>
             </div>
             <div className="flex justify-between">
-              <p className="text-sm text-gray-700 dark:text-gray-300">
-                {work.description}
-              </p>
+              {work.title ? (
+                <p className="text-sm text-gray-700 dark:text-gray-300">
+                  {work.description}
+                </p>
+              ) : (
+                <p className="text-sm italic text-gray-700 dark:text-gray-300">
+                  ~ {work.description}
+                </p>
+              )}
               <p className="text-white text-center">
                 <a
                   href={work.github}
                   className="ml-1 text-gray-800 hover:text-gray-400 dark:text-gray-100 dark:hover:text-gray-800 transition"
                   target="_blank"
                 >
-                  <FaGithub className="text-xl" />
+                  {work.github ? <FaGithub className="text-xl" /> : ""}
                 </a>
               </p>
             </div>

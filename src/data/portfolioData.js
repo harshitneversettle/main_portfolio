@@ -148,7 +148,7 @@ export const proofOfWork = [
     description:
       "A certificate generator and validator which uses cryptography (sha256) for verifying the certs, and uses compressing algorithms (merkle tree) for minimizing cost",
     date: "Jan 2025",
-    category: "web3",
+    category: "web3 web2",
     github: "https://github.com/harshitneversettle/forj",
   },
   {
@@ -164,6 +164,21 @@ export const proofOfWork = [
     date: "jul 2025",
     category: "web2",
     github: "https://github.com/harshitneversettle/Mentors_connect",
+  },
+  {
+    description:
+      "Eager to hear 'You did well' instead of 'You could have done better' .",
+    category: "writings",
+  },
+  {
+    description:
+      "You can be the prettiest shade of blue , but it they like red , it wouldn't matter.",
+    category: ";)",
+  },
+  {
+    description:
+      "You can be the prettiest shade of blue , but it they like red , it wouldn't matter.",
+    category: ";)",
   },
 ];
 
