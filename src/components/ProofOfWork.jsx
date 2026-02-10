@@ -23,7 +23,7 @@ export default function ProofOfWork() {
           <button
             key={cat}
             onClick={() => setFilter(cat)}
-            className={`px-4 py-1 border rounded text-sm ${
+            className={`px-3 py-1 border rounded text-sm ${
               filter === cat
                 ? "bg-black dark:bg-white text-white dark:text-black border-black dark:border-white"
                 : "border-gray-300 dark:border-gray-700 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-900"
@@ -63,10 +63,10 @@ export default function ProofOfWork() {
                   ~ {work.description}
                 </p>
               )}
-              <p className="text-white text-center">
+              <p className="text-white  bottom-6 right-6">
                 <a
                   href={work.github}
-                  className="ml-1 text-gray-800 hover:text-gray-400 dark:text-gray-100 dark:hover:text-gray-800 transition"
+                  className="ml-1 text-gray-800 hover:text-gray-400 dark:text-gray-100 dark:hover:text-gray-800 transition "
                   target="_blank"
                 >
                   {work.github ? <FaGithub className="text-xl" /> : ""}
