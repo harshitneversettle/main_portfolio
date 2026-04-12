@@ -1,3 +1,4 @@
+import { DiPostgresql } from "react-icons/di";
 import { profile } from "../data/portfolioData";
 import {
   FaRust,
@@ -11,13 +12,17 @@ import {
 } from "react-icons/fa";
 import {
   SiSolana,
-  //   SiAnchor,
   SiJavascript,
   SiTypescript,
   SiNextdotjs,
   SiExpress,
   SiCplusplus,
   SiSelenium,
+  SiPostgresql,
+  SiDocker,
+  SiSocketdotio,
+  SiWebrtc,
+  SiPrisma,
 } from "react-icons/si";
 
 export default function Hero() {
@@ -38,6 +43,11 @@ export default function Hero() {
     git: <FaGit />,
     github: <FaGithub />,
     aws: <FaAws />,
+    postgres: <SiPostgresql />,
+    docker: <SiDocker />,
+    websocket: <SiSocketdotio />,
+    webrtc: <SiWebrtc />,
+    prisma: <SiPrisma />,
   };
 
   return (

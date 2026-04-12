@@ -2,10 +2,16 @@ export const profile = {
   name: "Harshit",
   title: "full-stack engineer",
   location: "india",
-  focus: ["web3", "systems"],
-  skills: ["solana", "rust", "system-level engineering"],
+  focus: ["web3", "web2", "devOps"],
+  skills: [
+    "solana",
+    "rust",
+    "system-level engineering",
+    "full stack webD",
+    "DevOps",
+  ],
   description:
-    "most of my work revolves around solana, rust, and system-level engineering, where i focus on building infrastructure, developer tooling, and on-chain applications.",
+    "Full-stack developer experienced in building scalable web applications, real-time systems, and developer tooling using Next.js, React, TypeScript, Node.js, Prisma, and PostgreSQL. Skilled in WebSockets, WebRTC, and containerized deployments with Docker and Kubernetes. Additional exposure to Solana, Rust, and system-level engineering, focusing on infrastructure and on-chain applications.",
   environments: ["solana"],
   technologies: [
     { name: "solana", icon: "solana" },
@@ -24,10 +30,34 @@ export const profile = {
     { name: "git", icon: "git" },
     { name: "github", icon: "github" },
     { name: "aws", icon: "aws" },
+    { name: "docker", icon: "docker" },
+    { name: "postgres", icon: "postgres" },
+    { name: "prisma", icon: "prisma" },
+    { name: "webSocket", icon: "websocket" },
+    { name: "webRTC", icon: "webrtc" },
   ],
 };
 
 export const experiences = [
+  {
+    company: "Vitraga Solutions",
+    role: "SDE intern",
+    period: "April 2026 - present",
+    achievements: [
+      {
+        text: "working with",
+        highlight: "Next.js",
+      },
+      {
+        text: "and contributing to",
+        highlight: "real-world production projects",
+      },
+      {
+        text: "while strengthening",
+        highlight: "Git and collaborative development skills",
+      },
+    ],
+  },
   {
     company: "Solana Turbine",
     role: "graduate (q4 2025)",
@@ -61,29 +91,29 @@ export const experiences = [
 
 export const recentProjects = [
   {
-    title: "SolEase",
+    title: "Wynk-it",
     description:
-      "A secure, transparent, and user-friendly decentralized finance (DeFi) protocol built on the Solana blockchain for seamless lending and borrowing of digital assets.",
-    image: "/solease.png",
+      "Built a WebRTC-based P2P game with SOL wagering, client-side blink detection (MediaPipe), and on-chain transactions using Solana",
+    image: "/wynk-it.png",
     links: [
       {
-        type: "readme",
-        url: "https://github.com/harshitneversettle/SolEase/blob/main/README.md",
+        type: "live",
+        url: "https://wynk-it.harshityad4v.in/",
       },
-      { type: "code", url: "https://github.com/harshitneversettle/SolEase" },
+      { type: "code", url: "https://github.com/harshitneversettle/Wynk-It" },
     ],
   },
   {
-    title: "Solana mev analyzer",
+    title: "Tareef",
     description:
-      "A real-time MEV analyzer built on Solana Devnet to detect arbitrage opportunities caused by price imbalances across liquidity pools trading the same asset pair.",
-    image: "/mev.png",
+      "Building a automated testimonal generator , generate and directky embed in any code ",
+    image: "/tareef.png",
     links: [
       {
-        type: "readme",
-        url: "https://github.com/harshitneversettle/solana-mev/blob/main/README.md",
+        type: "live",
+        url: "",
       },
-      { type: "code", url: "https://github.com/harshitneversettle/solana-mev" },
+      { type: "code", url: "https://github.com/harshitneversettle/nextapp" },
     ],
   },
   {
@@ -96,6 +126,33 @@ export const recentProjects = [
       { type: "code", url: "https://github.com/harshitneversettle/Forj" },
     ],
   },
+  {
+    title: "SolEase",
+    description:
+      "A secure, transparent, and user-friendly decentralized finance (DeFi) protocol built on the Solana blockchain for seamless lending and borrowing of digital assets.",
+    image: "/solease.png",
+    links: [
+      {
+        type: "readme",
+        url: "https://github.com/harshitneversettle/SolEase/blob/main/README.md",
+      },
+      { type: "code", url: "https://github.com/harshitneversettle/SolEase" },
+    ],
+  },
+  // {
+  //   title: "Solana mev analyzer",
+  //   description:
+  //     "A real-time MEV analyzer built on Solana Devnet to detect arbitrage opportunities caused by price imbalances across liquidity pools trading the same asset pair.",
+  //   image: "/mev.png",
+  //   links: [
+  //     {
+  //       type: "readme",
+  //       url: "https://github.com/harshitneversettle/solana-mev/blob/main/README.md",
+  //     },
+  //     { type: "code", url: "https://github.com/harshitneversettle/solana-mev" },
+  //   ],
+  // },
+
   {
     title: "Shell (Rust)",
     description:
@@ -164,6 +221,20 @@ export const proofOfWork = [
     date: "jul 2025",
     category: "web2",
     github: "https://github.com/harshitneversettle/Mentors_connect",
+  },
+  {
+    title: "Wynk-it",
+    description: "Meet , play , stake and win",
+    date: "March 2026",
+    category: "web2 + web3",
+    github: "https://github.com/harshitneversettle/Wynk-It",
+  },
+  {
+    title: "Tareeft",
+    description: "Generate testimonals and embed them directly",
+    date: "april 2026",
+    category: "web2",
+    github: "https://github.com/harshitneversettle/nextapp",
   },
   {
     description:
